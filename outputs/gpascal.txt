@@ -1,0 +1,4 @@
+dn: uid=gpascal,ou=people,dc=univ-nc,dc=nc
+supannEntiteAffectation: 72
+supannEntiteAffectation: 83
+

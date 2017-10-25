@@ -1,0 +1,3 @@
+dn: uid=vlethezer,ou=people,dc=univ-nc,dc=nc
+supannEntiteAffectation: 21178
+

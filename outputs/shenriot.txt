@@ -1,0 +1,3 @@
+dn: uid=shenriot,ou=people,dc=univ-nc,dc=nc
+supannEntiteAffectation: 74
+

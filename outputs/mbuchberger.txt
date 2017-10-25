@@ -1,0 +1,4 @@
+dn: uid=mbuchberger,ou=people,dc=univ-nc,dc=nc
+supannEntiteAffectation: 19404
+supannEntiteAffectation: 86
+

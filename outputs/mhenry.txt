@@ -1,0 +1,3 @@
+dn: uid=mhenry,ou=people,dc=univ-nc,dc=nc
+supannEntiteAffectation: 22798
+

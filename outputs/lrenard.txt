@@ -1,0 +1,4 @@
+dn: uid=lrenard,ou=people,dc=univ-nc,dc=nc
+supannEntiteAffectation: 22466
+supannEntiteAffectation: 88
+

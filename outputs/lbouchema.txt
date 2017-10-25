@@ -1,0 +1,3 @@
+dn: uid=lbouchema,ou=people,dc=univ-nc,dc=nc
+supannEntiteAffectation: 72
+
