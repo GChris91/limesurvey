@@ -1,4 +1,0 @@
-dn: uid=jdaunis,ou=people,dc=univ-nc,dc=nc
-supannEntiteAffectation: 72
-supannEntiteAffectation: 82
-

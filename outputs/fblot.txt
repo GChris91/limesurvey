@@ -1,4 +1,0 @@
-dn: uid=fblot,ou=people,dc=univ-nc,dc=nc
-supannEntiteAffectation: 17407
-supannEntiteAffectation: 23336
-

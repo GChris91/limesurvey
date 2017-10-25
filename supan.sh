@@ -49,6 +49,8 @@ importSupan(){
     rm -Rf outputs
     mkdir outputs
 
+    echo 1
+
     awk '{print $2}' sources/usersbdd.txt > sources/usersname.txt
     
     while read -r LINE; do
@@ -57,13 +59,23 @@ importSupan(){
        eval ${cmd} >> ${log} 2>&1
 #    sed 's/[^0-9]*//g' < ${LINE} >${LINE}
     done < sources/usersname.txt
-
-    cmd="cd /outputs/ \; find . -type f -exec awk -v x=2 'NR==x{exit 1}' {} \; -exec echo rm -f {} \;"
+    echo 1
+    cd /outputs/
+    cmd="find ./outputs -type f -exec awk -v x=2 'NR==x{exit 1}' {} \; -exec rm -f {} \;"
     echo ${cmd} >> ${log} 
     eval ${cmd} >> ${log} 2>&1
 
-    sed 's/[^0-9]//g' outputs/*.txt
-    sed 's/^\([0-9][0-9]*\).*$/\1/' outputs/*.txt
+    echo here
+    
+    for file in $(outputs/*.txt)
+    do
+    cmd="sed -i 's/[^0-9]//g' ${file}"
+    echo ${cmd} >> ${log} 
+    eval ${cmd} >> ${log} 2>&1
+#    sed 's/^\([0-9][0-9]*\).*$/\1/' outputs/*.txt
+    done
+
+    echo ici
 
 }
 

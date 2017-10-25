@@ -1,3 +1,0 @@
-dn: uid=claunay,ou=people,dc=univ-nc,dc=nc
-supannEntiteAffectation: 86
-

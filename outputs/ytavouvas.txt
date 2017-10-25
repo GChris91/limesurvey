@@ -1,3 +1,0 @@
-dn: uid=ytavouvas,ou=people,dc=univ-nc,dc=nc
-supannEntiteAffectation: 86
-

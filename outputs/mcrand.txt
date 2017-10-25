@@ -1,3 +1,0 @@
-dn: uid=mcrand,ou=people,dc=univ-nc,dc=nc
-supannEntiteAffectation: 21178
-

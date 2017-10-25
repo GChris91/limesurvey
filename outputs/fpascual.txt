@@ -1,6 +1,0 @@
-dn: uid=fpascual,ou=people,dc=univ-nc,dc=nc
-supannEntiteAffectation: 20525
-supannEntiteAffectation: 22952
-supannEntiteAffectation: 80
-supannEntiteAffectation: 88
-
